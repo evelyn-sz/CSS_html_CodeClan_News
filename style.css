@@ -1,0 +1,35 @@
+body{
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
+
+body > header{
+    background-color: deepskyblue;
+    color: ghostwhite;
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+}
+/* #header-title{
+    float: left;
+}
+
+#header-links{
+    align-self: flex-end;
+} */
+
+nav > ul{
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    align-self: flex-end;
+   
+    /* align-items: center;
+    justify-content: flex-start; */
+}
+
+nav > ul > li > a{
+    margin-right: 10px;
+    align-self: center;
+    padding: 10px;
+}
+
